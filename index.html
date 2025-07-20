@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Login | Campus Resource System</title>
-  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <title>Dashboard | Campus Resource System</title>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <div class="login-container">
-    <h2>Login</h2>
-    <form>
-      <input type="text" placeholder="User ID" required>
-      <input type="password" placeholder="Password" required>
-      <select>
-        <option value="student">Student</option>
-        <option value="faculty">Faculty</option>
-        <option value="admin">Admin</option>
-      </select>
-      <button type="submit">Login</button>
-    </form>
-  </div>
+  <header>
+    <h1>Campus Resource Dashboard</h1>
+    <p>Welcome</p>
+  </header>
+
+  <main class="module-grid">
+    <a href="booking.html" class="card">Resource Booking</a>
+    <a href="notice.html" class="card">Notice Board</a>
+    <a href="library.html" class="card">Library Requests</a>
+    <a href="lostfound.html" class="card">Lost & Found</a>
+  </main>
 </body>
 </html>
+
