@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fafafa;
+  }
+  
+  header {
+    background: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .notice-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .notice {
+    background: white;
+    border-left: 6px solid #2e86de;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  .notice h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2e86de;
+  }
+  
+  .notice p {
+    margin: 0 0 10px 0;
+    color: #555;
+    line-height: 1.4;
+  }
+  
+  .notice .date {
+    font-size: 0.9em;
+    color: #999;
+  }
+  

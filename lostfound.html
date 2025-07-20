@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lost & Found | Campus Resource System</title>
+  <link rel="stylesheet" href="lostfound.css" />
+</head>
+<body>
+  <header>
+    <h1>Lost & Found Portal</h1>
+  </header>
+
+  <main class="container">
+    <section class="report-form">
+      <h2>Report Lost/Found Item</h2>
+      <form>
+        <label for="itemType">Item Type:</label>
+        <select id="itemType" required>
+          <option value="">--Select--</option>
+          <option value="lost">Lost</option>
+          <option value="found">Found</option>
+        </select>
+
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" placeholder="Enter item name" required />
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="Where was it lost/found?" required />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" required />
+
+        <label for="contact">Contact Info:</label>
+        <input type="text" id="contact" placeholder="Your contact information" required />
+
+        <button type="submit">Submit Report</button>
+      </form>
+    </section>
+
+    <section class="items-list">
+      <h2>Reported Items</h2>
+
+      <div class="item">
+        <h3>Lost - Wallet</h3>
+        <p><strong>Location:</strong> Main Library</p>
+        <p><strong>Date:</strong> 2025-07-15</p>
+        <p><strong>Contact:</strong> 017xxxxxxx</p>
+      </div>
+
+      <div class="item">
+        <h3>Found - Keys</h3>
+        <p><strong>Location:</strong> Cafeteria</p>
+        <p><strong>Date:</strong> 2025-07-18</p>
+        <p><strong>Contact:</strong> 018xxxxxxx</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
