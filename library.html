@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Library Book Request | Campus Resource System</title>
+  <link rel="stylesheet" href="library.css" />
+</head>
+<body>
+  <header>
+    <h1>Library Book Request System</h1>
+  </header>
+
+  <main class="form-container">
+    <form>
+      <label for="studentId">Student ID:</label>
+      <input type="text" id="studentId" placeholder="Enter your student ID" required />
+
+      <label for="bookTitle">Book Title:</label>
+      <input type="text" id="bookTitle" placeholder="Enter book title" required />
+
+      <label for="author">Author:</label>
+      <input type="text" id="author" placeholder="Enter author name" />
+
+      <label for="reason">Reason for Request:</label>
+      <textarea id="reason" placeholder="Why do you need this book?" rows="4" required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </main>
+</body>
+</html>
