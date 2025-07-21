@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #002d62;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .faculty-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .faculty-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .faculty-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .faculty-card h2 {
+    margin-top: 0;
+    color: #004080;
+  }
+  
+  .faculty-card p {
+    margin: 6px 0;
+    color: #333;
+  }
+  
