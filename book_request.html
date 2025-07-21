@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book Request Form - Library Services</title>
+  <link rel="stylesheet" href="book_request.css" />
+</head>
+<body>
+  <header>
+    <h1>Library Services - Book Request Form</h1>
+  </header>
+
+  <main>
+    <form class="form-container">
+      <label for="studentName">Your Name:</label>
+      <input type="text" id="studentName" name="studentName" required />
+
+      <label for="studentId">Student ID:</label>
+      <input type="text" id="studentId" name="studentId" required />
+
+      <label for="bookTitle">Book Title:</label>
+      <input type="text" id="bookTitle" name="bookTitle" required />
+
+      <label for="author">Author Name:</label>
+      <input type="text" id="author" name="author" required />
+
+      <label for="publisher">Publisher (optional):</label>
+      <input type="text" id="publisher" name="publisher" />
+
+      <label for="reason">Why do you want this book?</label>
+      <textarea id="reason" name="reason" rows="4" placeholder="Explain why this book should be added." required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 Campus Resource Information System | Library Services
+  </footer>
+</body>
+</html>
