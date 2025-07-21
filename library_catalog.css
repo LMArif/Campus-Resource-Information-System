@@ -1,0 +1,50 @@
+.catalog-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  }
+  
+  .catalog-container h2 {
+    margin-bottom: 1rem;
+    color: #004080;
+    text-align: center;
+  }
+  
+  #searchInput {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  #booksTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #booksTable th,
+  #booksTable td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  #booksTable th {
+    background-color: #004080;
+    color: white;
+  }
+  
+  #booksTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #booksTable tr:hover {
+    background-color: #e1ecf9;
+    cursor: pointer;
+  }
+  

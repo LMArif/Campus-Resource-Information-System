@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Library Catalog - Library Services</title>
+  <link rel="stylesheet" href="library_catalog.css" />
+</head>
+<body>
+  <header>
+    <h1>Library Services - Library Catalog</h1>
+  </header>
+
+  <main>
+    <section class="catalog-container">
+      <h2>Available Books</h2>
+      <input type="text" id="searchInput" placeholder="Search by title or author..." onkeyup="searchBooks()" />
+      <table id="booksTable">
+        <thead>
+          <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Introduction to Algorithms</td>
+            <td>Thomas H. Cormen</td>
+            <td>Computer Science</td>
+            <td>Available</td>
+            <td><a href="book_request.html?title=Introduction+to+Algorithms" class="btn-request">Request</a></td>
+          </tr>
+          <tr>
+            <td>Clean Code</td>
+            <td>Robert C. Martin</td>
+            <td>Software Engineering</td>
+            <td>Checked Out</td>
+            <td><span class="btn-disabled">Unavailable</span></td>
+          </tr>
+          <tr>
+            <td>The Pragmatic Programmer</td>
+            <td>Andrew Hunt</td>
+            <td>Software Engineering</td>
+            <td>Available</td>
+            <td><a href="book_request.html?title=The+Pragmatic+Programmer" class="btn-request">Request</a></td>
+          </tr>
+          <tr>
+            <td>Digital Design</td>
+            <td>M. Morris Mano</td>
+            <td>Electrical Engineering</td>
+            <td>Available</td>
+            <td><a href="book_request.html?title=Digital+Design" class="btn-request">Request</a></td>
+          </tr>
+          <tr>
+            <td>Operating System Concepts</td>
+            <td>Abraham Silberschatz</td>
+            <td>Computer Science</td>
+            <td>Checked Out</td>
+            <td><span class="btn-disabled">Unavailable</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Campus Resource Information System | Library Services
+  </footer>
+
+
+</body>
+</html>

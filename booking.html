@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resource Booking | Campus Resource System</title>
+  <link rel="stylesheet" href="booking.css" />
+</head>
+<body>
+  <header>
+    <h1>Resource Booking System</h1>
+  </header>
+
+  <main class="form-container">
+    <form>
+      <label for="resource">Select Resource:</label>
+      <select id="resource" required>
+        <option value="">--Choose--</option>
+        <option value="lab1">Computer Lab 1</option>
+        <option value="lab2">Computer Lab 2</option>
+        <option value="classroom">Classroom</option>
+        <option value="projector">Projector</option>
+      </select>
+
+      <label for="date">Booking Date:</label>
+      <input type="date" id="date" required />
+
+      <label for="time">Time Slot:</label>
+      <select id="time" required>
+        <option value="">--Choose--</option>
+        <option value="8-10am">8:00 – 10:00 AM</option>
+        <option value="10-12pm">10:00 – 12:00 PM</option>
+        <option value="2-4pm">2:00 – 4:00 PM</option>
+        <option value="4-6pm">4:00 – 6:00 PM</option>
+      </select>
+
+      <label for="purpose">Purpose:</label>
+      <textarea
+        id="purpose"
+        placeholder="Enter reason..."
+        rows="4"
+        required
+      ></textarea>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+  </main>
+</body>
+</html>

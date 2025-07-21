@@ -1,0 +1,60 @@
+.status-container {
+    max-width: 900px;
+    margin: 2rem auto 3rem auto;
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .status-container h2 {
+    margin-bottom: 1rem;
+    color: #004080;
+    text-align: center;
+  }
+  
+  #statusTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #statusTable th,
+  #statusTable td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  #statusTable th {
+    background-color: #004080;
+    color: white;
+  }
+  
+  #statusTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #statusTable tr:hover {
+    background-color: #e1ecf9;
+  }
+  
+  .status {
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+  }
+  
+  .status.pending {
+    background-color: #f0ad4e; /* orange */
+  }
+  
+  .status.approved {
+    background-color: #5cb85c; /* green */
+  }
+  
+  .status.rejected {
+    background-color: #d9534f; /* red */
+  }
+  
