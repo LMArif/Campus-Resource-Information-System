@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f6f9;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #28a745;
+    margin-bottom: 30px;
+  }
+  
+  .item-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .item-card {
+    background-color: white;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .item-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .item-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
